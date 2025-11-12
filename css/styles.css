@@ -92,6 +92,7 @@ color: #404bbf;
 }
 .nav-link.current{
   position: relative;
+  color: #404bbf;;
 }
 .nav-link.current::after
 {
@@ -134,7 +135,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 /* #region Hero-Main title */
 .section-hero
 {
-  
   background-color:#2e2f42;
   color: #fff;
   padding: 188px 0; 
@@ -146,12 +146,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-position: center;
   background-size: cover;
   margin: 0 auto;
-  
-}
+  max-width: 1440px;
+  }
 .container-hero
 {
   width: 100%;
-  max-width: 1440px;
   margin: 0 auto;
   padding-left: 282px;
   padding-right: 282px;
@@ -187,6 +186,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   min-width: 169px;
   height: 56px;
   border: none;
+  transition: м background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   
 }
 .hero-button:hover,
